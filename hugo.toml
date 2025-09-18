@@ -1,0 +1,91 @@
+baseURL = 'http://example.org/'
+languageCode = 'vi-vn'
+title = 'Blog Lập Trình Mạng'
+theme = 'PaperMod'
+
+[params]
+  # Thiết lập giao diện
+  defaultTheme = "auto"  # auto, light, dark
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+  
+  # Tùy chỉnh màu sắc và giao diện
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+  
+  # Tùy chỉnh hiển thị bài viết
+  [params.cover]
+    linkFullImages = true
+    
+  # Tùy chỉnh hiển thị danh sách bài viết
+  [params.list]
+    showSummary = true
+
+  # Chế độ hiển thị profile
+  [params.profileMode]
+    enabled = true
+    title = "Blog Lập Trình Mạng"
+    subtitle = "Chia sẻ kiến thức về Java & JavaScript"
+    imageUrl = "/images/profile.jpg"
+    imageWidth = 120
+    imageHeight = 120
+    
+  # Tùy chỉnh hiển thị trang chủ
+  [params.homeInfoParams]
+    Title = "Chào mừng đến với Blog Lập Trình Mạng"
+    Content = "Blog chia sẻ kiến thức về lập trình Java & JavaScript. Khám phá các bài viết chất lượng về lập trình, công nghệ và phát triển phần mềm."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
+    
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:your-email@example.com"
+    
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/yourusername"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Trang Chủ"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Bài Viết"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "categories"
+    name = "Danh Mục"
+    url = "/categories/"
+    weight = 25
+  [[menu.main]]
+    identifier = "tags"
+    name = "Thẻ"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "profile"
+    name = "Giới Thiệu"
+    url = "/profile/"
+    weight = 40
