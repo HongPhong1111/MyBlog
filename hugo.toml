@@ -1,4 +1,4 @@
-baseURL = 'https://hongphong1111.github.io/'
+baseURL = 'https://hongphong1111.github.io/MyBlog/'
 languageCode = 'vi-vn'
 title = 'Blog Lập Trình Mạng - Nguyễn Phong'
 theme = 'PaperMod'
