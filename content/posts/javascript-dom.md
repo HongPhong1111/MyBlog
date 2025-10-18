@@ -4,6 +4,11 @@ date: 2023-07-30T10:00:00+07:00
 draft: false
 tags: ["JavaScript", "DOM", "Web", "Lập trình"]
 categories: ["JavaScript"]
+description: "Làm việc với DOM trong JavaScript. Học cách thao tác HTML elements và xử lý events."
+cover:
+  image: "/images/javascript-dom.svg"
+  alt: "JavaScript DOM"
+  caption: "DOM Manipulation và Event Handling"
 ---
 
 # DOM và Xử lý sự kiện trong JavaScript

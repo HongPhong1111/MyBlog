@@ -4,6 +4,11 @@ date: 2023-07-25T10:00:00+07:00
 draft: false
 tags: ["JavaScript", "Web", "Lập trình"]
 categories: ["JavaScript"]
+description: "Khóa học JavaScript cơ bản. Học biến, hàm, vòng lặp và DOM manipulation cho người mới."
+cover:
+  image: "/images/javascript-basics.svg"
+  alt: "JavaScript Basics"
+  caption: "Cơ bản JavaScript cho người mới"
 ---
 
 # Cơ bản về JavaScript cho người mới bắt đầu

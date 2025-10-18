@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" rx="20" fill="#F89820"/>
+<path d="M50 60C50 45.6406 61.6406 34 76 34H124C138.359 34 150 45.6406 150 60V140C150 154.359 138.359 166 124 166H76C61.6406 166 50 154.359 50 140V60Z" fill="#ED8B00"/>
+<path d="M70 80C70 70 78 60 90 60H110C122 60 130 70 130 80V120C130 130 122 140 110 140H90C78 140 70 130 70 120V80Z" fill="#F89820"/>
+<text x="100" y="110" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">Java</text>
+</svg>
+
+

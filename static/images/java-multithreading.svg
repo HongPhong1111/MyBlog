@@ -1,0 +1,14 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="250" fill="#1E293B"/>
+<rect x="50" y="50" width="80" height="150" rx="8" fill="#4361EE" opacity="0.6"/>
+<rect x="160" y="80" width="80" height="120" rx="8" fill="#3F37C9" opacity="0.6"/>
+<rect x="270" y="60" width="80" height="140" rx="8" fill="#4895EF" opacity="0.6"/>
+<text x="90" y="130" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Thread 1</text>
+<text x="200" y="145" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Thread 2</text>
+<text x="310" y="135" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Thread 3</text>
+<circle cx="200" cy="30" r="15" fill="#F72585"/>
+<text x="200" y="35" text-anchor="middle" fill="white" font-size="10" font-weight="bold">CPU</text>
+<line x1="200" y1="45" x2="90" y2="50" stroke="#F72585" stroke-width="2" stroke-dasharray="5,5"/>
+<line x1="200" y1="45" x2="200" y2="80" stroke="#F72585" stroke-width="2" stroke-dasharray="5,5"/>
+<line x1="200" y1="45" x2="310" y2="60" stroke="#F72585" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>

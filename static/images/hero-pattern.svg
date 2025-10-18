@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <defs>
+    <pattern id="pattern" width="40" height="40" viewBox="0 0 40 40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect id="pattern-bg" width="400" height="400" fill="rgba(255, 255, 255, 0.03)"></rect>
+      <path fill="rgba(255, 255, 255, 0.07)" d="M0 0h40v40H0z"></path>
+    </pattern>
+  </defs>
+  <rect fill="url(#pattern)" height="100%" width="100%"></rect>
+</svg>

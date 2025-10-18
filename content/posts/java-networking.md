@@ -4,6 +4,11 @@ date: 2023-08-10T10:00:00+07:00
 draft: false
 tags: ["Java", "Networking", "Socket", "Lập trình"]
 categories: ["Java"]
+description: "Hướng dẫn lập trình mạng với Java Socket. Tìm hiểu TCP, UDP và xây dựng ứng dụng client-server."
+cover:
+  image: "/images/networking.svg"
+  alt: "Lập trình mạng Java"
+  caption: "Giao tiếp mạng với Java Socket"
 ---
 
 # Lập trình mạng với Java

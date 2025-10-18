@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" rx="20" fill="#F7DF1E"/>
+<path d="M50 60C50 45.6406 61.6406 34 76 34H124C138.359 34 150 45.6406 150 60V140C150 154.359 138.359 166 124 166H76C61.6406 166 50 154.359 50 140V60Z" fill="#F0DB4F"/>
+<text x="100" y="100" text-anchor="middle" fill="black" font-family="Arial" font-size="18" font-weight="bold">JavaScript</text>
+<text x="100" y="120" text-anchor="middle" fill="black" font-family="Arial" font-size="12">JS</text>
+</svg>
+
+

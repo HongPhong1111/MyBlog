@@ -1,7 +1,17 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://your-blog-domain.com/'
 languageCode = 'vi-vn'
-title = 'Blog Lập Trình Mạng'
+title = 'Blog Lập Trình Mạng - Nguyễn Phong'
 theme = 'PaperMod'
+
+# Enable raw HTML in markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Output formats for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
   # Thiết lập giao diện
@@ -24,6 +34,7 @@ theme = 'PaperMod'
   
   # Tùy chỉnh màu sắc và giao diện
   [params.assets]
+    disableFingerprinting = false
     favicon = "/favicon.ico"
     favicon16x16 = "/favicon-16x16.png"
     favicon32x32 = "/favicon-32x32.png"
@@ -37,19 +48,24 @@ theme = 'PaperMod'
   [params.list]
     showSummary = true
 
-  # Chế độ hiển thị profile
+  # Chế độ hiển thị profile - TẮT để sử dụng list view tối giản
   [params.profileMode]
-    enabled = true
-    title = "Blog Lập Trình Mạng"
-    subtitle = "Chia sẻ kiến thức về Java & JavaScript"
-    imageUrl = "/images/profile.jpg"
-    imageWidth = 120
-    imageHeight = 120
+    enabled = false
     
   # Tùy chỉnh hiển thị trang chủ
   [params.homeInfoParams]
-    Title = "Chào mừng đến với Blog Lập Trình Mạng"
-    Content = "Blog chia sẻ kiến thức về lập trình Java & JavaScript. Khám phá các bài viết chất lượng về lập trình, công nghệ và phát triển phần mềm."
+    Title = "Lập Trình Mạng"
+    Content = "Chia sẻ kiến thức về Java và JavaScript"
+  
+  # Enable search functionality
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
 
   [[params.socialIcons]]
     name = "github"
@@ -65,27 +81,32 @@ theme = 'PaperMod'
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Trang Chủ"
-    url = "/"
-    weight = 10
-  [[menu.main]]
     identifier = "blog"
     name = "Bài Viết"
     url = "/posts/"
-    weight = 20
+    weight = 10
   [[menu.main]]
     identifier = "categories"
     name = "Danh Mục"
     url = "/categories/"
-    weight = 25
+    weight = 20
   [[menu.main]]
     identifier = "tags"
     name = "Thẻ"
     url = "/tags/"
     weight = 30
   [[menu.main]]
-    identifier = "profile"
+    identifier = "archives"
+    name = "Lưu Trữ"
+    url = "/archives/"
+    weight = 35
+  [[menu.main]]
+    identifier = "about"
     name = "Giới Thiệu"
-    url = "/profile/"
+    url = "/about/"
     weight = 40
+  [[menu.main]]
+    identifier = "search"
+    name = "Tìm Kiếm"
+    url = "/search/"
+    weight = 50

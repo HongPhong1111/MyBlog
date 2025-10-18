@@ -1,0 +1,13 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="250" fill="#F0F4F8"/>
+<rect x="50" y="50" width="100" height="80" rx="8" fill="#4361EE" opacity="0.8"/>
+<rect x="170" y="50" width="100" height="80" rx="8" fill="#3F37C9" opacity="0.8"/>
+<rect x="290" y="50" width="60" height="80" rx="8" fill="#4895EF" opacity="0.8"/>
+<text x="100" y="100" text-anchor="middle" fill="white" font-size="14" font-weight="bold">List</text>
+<text x="220" y="100" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Set</text>
+<text x="320" y="100" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Map</text>
+<path d="M 100 140 L 100 170 L 200 170" stroke="#F72585" stroke-width="3" fill="none"/>
+<path d="M 220 140 L 220 190 L 200 190" stroke="#F72585" stroke-width="3" fill="none"/>
+<circle cx="200" cy="180" r="30" fill="#F72585" opacity="0.3"/>
+<text x="200" y="190" text-anchor="middle" fill="#1A202C" font-size="16" font-weight="bold">Collections</text>
+</svg>

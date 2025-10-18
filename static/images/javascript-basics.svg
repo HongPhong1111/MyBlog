@@ -1,0 +1,9 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="250" fill="#FFF8E1"/>
+<rect x="80" y="60" width="240" height="130" rx="12" fill="#F7DF1E"/>
+<text x="200" y="110" text-anchor="middle" fill="#000" font-size="48" font-weight="bold">JS</text>
+<text x="200" y="145" text-anchor="middle" fill="#000" font-size="16">JavaScript</text>
+<circle cx="100" cy="80" r="5" fill="#000" opacity="0.3"/>
+<circle cx="120" cy="80" r="5" fill="#000" opacity="0.3"/>
+<circle cx="140" cy="80" r="5" fill="#000" opacity="0.3"/>
+</svg>

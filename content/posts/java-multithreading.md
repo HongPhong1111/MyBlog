@@ -4,6 +4,11 @@ date: 2023-08-10T14:00:00+07:00
 draft: false
 tags: ["Java", "Multithreading", "Concurrency", "Lập trình"]
 categories: ["Java"]
+description: "Hướng dẫn lập trình đa luồng với Java. Tìm hiểu Thread, Synchronization và Concurrent Programming."
+cover:
+  image: "/images/java-multithreading.svg"
+  alt: "Java Multithreading"
+  caption: "Lập trình đa luồng trong Java"
 ---
 
 # Lập trình đa luồng trong Java

@@ -4,6 +4,11 @@ date: 2023-08-05T10:00:00+07:00
 draft: false
 tags: ["JavaScript", "Async", "Promise", "Web", "Lập trình"]
 categories: ["JavaScript"]
+description: "Tìm hiểu về Promise, Async/Await và cách xử lý tác vụ bất đồng bộ trong JavaScript một cách hiệu quả."
+cover:
+  image: "/images/javascript-async.svg"
+  alt: "JavaScript Async Programming"
+  caption: "Promise, Async & Await trong JavaScript"
 ---
 
 # Lập trình bất đồng bộ trong JavaScript

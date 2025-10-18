@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="posts-page">
+  <main class="main">
+    {{ if .Content }}
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+    {{ end }}
+
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $paginator := .Paginate $pages }}
+    
+    {{ range $paginator.Pages }}
+    <article class="post-entry">
+      {{ if .Params.cover }}
+      <div class="entry-cover">
+        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy">
+      </div>
+      {{ end }}
+      <header class="entry-header">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      </header>
+      {{ if .Summary }}
+      <div class="entry-content">
+        <p>{{ .Summary }}</p>
+      </div>
+      {{ end }}
+      <footer class="entry-footer">
+        <span>{{ .Date.Format "2006-01-02" }}</span>
+        {{ if .Params.tags }}
+        <span>•</span>
+        <span>{{ delimit .Params.tags ", " }}</span>
+        {{ end }}
+      </footer>
+      <a class="entry-link" aria-label="{{ .Title }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{ end }}
+    
+    {{ partial "pagination.html" . }}
+  </main>
+</div>
+{{ end }}

@@ -1,0 +1,17 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="250" fill="#E8F4F8"/>
+<rect x="150" y="30" width="100" height="40" rx="5" fill="#4361EE"/>
+<text x="200" y="55" text-anchor="middle" fill="white" font-size="14">document</text>
+<rect x="80" y="100" width="80" height="40" rx="5" fill="#3F37C9"/>
+<rect x="200" y="100" width="80" height="40" rx="5" fill="#3F37C9"/>
+<text x="120" y="125" text-anchor="middle" fill="white" font-size="12">body</text>
+<text x="240" y="125" text-anchor="middle" fill="white" font-size="12">head</text>
+<rect x="40" y="170" width="60" height="40" rx="5" fill="#4895EF"/>
+<rect x="120" y="170" width="60" height="40" rx="5" fill="#4895EF"/>
+<text x="70" y="195" text-anchor="middle" fill="white" font-size="10">div</text>
+<text x="150" y="195" text-anchor="middle" fill="white" font-size="10">p</text>
+<line x1="200" y1="70" x2="120" y2="100" stroke="#1A202C" stroke-width="2"/>
+<line x1="200" y1="70" x2="240" y2="100" stroke="#1A202C" stroke-width="2"/>
+<line x1="120" y1="140" x2="70" y2="170" stroke="#1A202C" stroke-width="2"/>
+<line x1="120" y1="140" x2="150" y2="170" stroke="#1A202C" stroke-width="2"/>
+</svg>

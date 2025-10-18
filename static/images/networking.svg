@@ -1,0 +1,15 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="250" fill="#1E293B"/>
+<circle cx="100" cy="125" r="40" fill="#4361EE"/>
+<circle cx="300" cy="125" r="40" fill="#4895EF"/>
+<line x1="140" y1="125" x2="260" y2="125" stroke="#F72585" stroke-width="4" stroke-dasharray="10 5"/>
+<text x="100" y="130" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Client</text>
+<text x="300" y="130" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Server</text>
+<text x="200" y="110" text-anchor="middle" fill="#F72585" font-size="12">Data Transfer</text>
+<polygon points="255,125 240,120 240,130" fill="#F72585"/>
+<circle cx="100" cy="50" r="5" fill="#4CC9F0"/>
+<circle cx="150" cy="50" r="5" fill="#4CC9F0"/>
+<circle cx="200" cy="50" r="5" fill="#4CC9F0"/>
+<circle cx="250" cy="50" r="5" fill="#4CC9F0"/>
+<circle cx="300" cy="50" r="5" fill="#4CC9F0"/>
+</svg>

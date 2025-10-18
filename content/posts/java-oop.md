@@ -4,6 +4,11 @@ date: 2023-07-15T10:00:00+07:00
 draft: false
 tags: ["Java", "OOP", "Lập trình"]
 categories: ["Java"]
+description: "Khám phá 4 nguyên tắc cơ bản của lập trình hướng đối tượng: Đóng gói, Kế thừa, Đa hình và Trừu tượng trong Java."
+cover:
+  image: "/images/java-oop.svg"
+  alt: "Lập trình hướng đối tượng Java"
+  caption: "4 nguyên tắc OOP trong Java"
 ---
 
 # Lập trình hướng đối tượng trong Java

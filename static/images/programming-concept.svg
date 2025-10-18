@@ -1,0 +1,15 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="200" rx="10" fill="#1E293B"/>
+<rect x="20" y="20" width="260" height="160" rx="5" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+<text x="150" y="40" text-anchor="middle" fill="#F1F5F9" font-family="monospace" font-size="14">Code Editor</text>
+<text x="30" y="70" fill="#10B981" font-family="monospace" font-size="12">public class HelloWorld {</text>
+<text x="30" y="90" fill="#F59E0B" font-family="monospace" font-size="12">    public static void main(String[] args) {</text>
+<text x="50" y="110" fill="#EF4444" font-family="monospace" font-size="12">System.out.println("Hello World!");</text>
+<text x="30" y="130" fill="#F59E0B" font-family="monospace" font-size="12">    }</text>
+<text x="30" y="150" fill="#10B981" font-family="monospace" font-size="12">}</text>
+<circle cx="250" cy="50" r="8" fill="#EF4444"/>
+<circle cx="270" cy="50" r="8" fill="#F59E0B"/>
+<circle cx="290" cy="50" r="8" fill="#10B981"/>
+</svg>
+
+

@@ -4,6 +4,11 @@ date: 2023-07-20T10:00:00+07:00
 draft: false
 tags: ["Java", "Collections", "Lập trình"]
 categories: ["Java"]
+description: "Tìm hiểu về Collections Framework - List, Set, Map và các cấu trúc dữ liệu quan trọng trong Java."
+cover:
+  image: "/images/java-collections.svg"
+  alt: "Java Collections Framework"
+  caption: "List, Set và Map trong Java"
 ---
 
 # Collections Framework trong Java
