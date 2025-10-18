@@ -15,7 +15,7 @@
       {{ if .Params.cover }}
       <div class="entry-cover">
         <!-- <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy"> -->
-        <img src="/MyBlog/{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy">
+        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy">
       </div>
       {{ end }}
       <header class="entry-header">

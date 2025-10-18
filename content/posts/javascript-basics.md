@@ -6,7 +6,7 @@ tags: ["JavaScript", "Web", "Lập trình"]
 categories: ["JavaScript"]
 description: "Khóa học JavaScript cơ bản. Học biến, hàm, vòng lặp và DOM manipulation cho người mới."
 cover:
-  image: "/images/javascript-basics.svg"
+  image: "/MyBlog/images/javascript-basics.svg"
   alt: "JavaScript Basics"
   caption: "Cơ bản JavaScript cho người mới"
 ---

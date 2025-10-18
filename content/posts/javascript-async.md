@@ -6,7 +6,7 @@ tags: ["JavaScript", "Async", "Promise", "Web", "Lập trình"]
 categories: ["JavaScript"]
 description: "Tìm hiểu về Promise, Async/Await và cách xử lý tác vụ bất đồng bộ trong JavaScript một cách hiệu quả."
 cover:
-  image: "/images/javascript-async.svg"
+  image: "/MyBlog/images/javascript-async.svg"
   alt: "JavaScript Async Programming"
   caption: "Promise, Async & Await trong JavaScript"
 ---

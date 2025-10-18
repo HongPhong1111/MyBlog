@@ -6,7 +6,7 @@ tags: ["Java", "Multithreading", "Concurrency", "Lập trình"]
 categories: ["Java"]
 description: "Hướng dẫn lập trình đa luồng với Java. Tìm hiểu Thread, Synchronization và Concurrent Programming."
 cover:
-  image: "/images/java-multithreading.svg"
+  image: "/MyBlog/images/java-multithreading.svg"
   alt: "Java Multithreading"
   caption: "Lập trình đa luồng trong Java"
 ---

@@ -6,7 +6,7 @@ tags: ["JavaScript", "Framework", "React", "Vue", "Angular", "Web", "Lập trìn
 categories: ["JavaScript"]
 description: "So sánh các JavaScript Framework phổ biến: React, Vue, Angular. Chọn framework phù hợp cho dự án."
 cover:
-  image: "/images/javascript-frameworks.svg"
+  image: "/MyBlog/images/javascript-frameworks.svg"
   alt: "JavaScript Frameworks"
   caption: "React, Vue và Angular"
 ---

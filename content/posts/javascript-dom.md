@@ -6,7 +6,7 @@ tags: ["JavaScript", "DOM", "Web", "Lập trình"]
 categories: ["JavaScript"]
 description: "Làm việc với DOM trong JavaScript. Học cách thao tác HTML elements và xử lý events."
 cover:
-  image: "/images/javascript-dom.svg"
+  image: "/MyBlog/images/javascript-dom.svg"
   alt: "JavaScript DOM"
   caption: "DOM Manipulation và Event Handling"
 ---

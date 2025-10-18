@@ -6,7 +6,7 @@ tags: ["Java", "Lập trình", "Cơ bản"]
 categories: ["Java"]
 description: "Hướng dẫn chi tiết về Java cho người mới bắt đầu. Tìm hiểu cú pháp, kiểu dữ liệu, và các khái niệm cơ bản của Java."
 cover:
-  image: "/images/java-logo.svg"
+  image: "/MyBlog/images/java-logo.svg"
   alt: "Java Logo"
   caption: "Java - Ngôn ngữ lập trình phổ biến"
 ---
